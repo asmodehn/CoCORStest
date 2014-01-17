@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<SceneProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <filePath>C:\Users\anbsoft\Documents\GitHub\CoCORStest\HTML5App\public_html\EWProto.xml.scene</filePath>
+  <Version>1.2.0.0</Version>
+  <Name>EWProto</Name>
+  <ProjectDir>C:\Users\anbsoft\Documents\GitHub\CoCORStest\HTML5App\public_html</ProjectDir>
+  <JsonFileName>EWProto.json</JsonFileName>
+  <Resources>C:\Users\anbsoft\Documents\GitHub\CoCORStest\HTML5App\public_html\Resources</Resources>
+  <JsonFolder>C:\Users\anbsoft\Documents\GitHub\CoCORStest\HTML5App\public_html\Json</JsonFolder>
+  <JsonList />
+  <CanvasSize>
+    <Width>480</Width>
+    <Height>320</Height>
+  </CanvasSize>
+  <JSFileList />
+  <DefaultUI_JSList />
+</SceneProject>

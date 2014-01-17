@@ -1,0 +1,156 @@
+{
+  "classname": "CCNode",
+  "name": "RootBGNode",
+  "canedit": true,
+  "objecttag": 10000,
+  "rotation": 0,
+  "scalex": 1,
+  "scaley": 1,
+  "visible": 1,
+  "x": 0,
+  "y": 0,
+  "zorder": 1,
+  "gameobjects": [
+    {
+      "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
+      "classname": "CCNode",
+      "name": "RootScene",
+      "canedit": true,
+      "objecttag": 10004,
+      "rotation": 0,
+      "scalex": 1,
+      "scaley": 1,
+      "visible": 1,
+      "x": 0,
+      "y": 0,
+      "zorder": 1,
+      "gameobjects": [
+        {
+          "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
+          "classname": "CCNode",
+          "name": "Background",
+          "canedit": true,
+          "objecttag": 10005,
+          "rotation": 0,
+          "scalex": 2.6666677,
+          "scaley": 2.48749971,
+          "visible": 1,
+          "x": 640,
+          "y": 400,
+          "zorder": 1,
+          "gameobjects": [],
+          "components": [
+            {
+              "__type": "ComSpriteSurrogate:#EditorCommon.JsonModel.Component",
+              "classname": "CCSprite",
+              "name": "CCSprite",
+              "file": null,
+              "fileData": {
+                "path": "gfx/HelloWorld.png",
+                "plistFile": null,
+                "resourceType": 0
+              }
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "__type": "ComSimpleAudioSurrogate:#EditorCommon.JsonModel.Component",
+          "classname": "CCComAudio",
+          "name": "CCComAudio",
+          "file": null,
+          "fileData": {
+            "path": null,
+            "plistFile": null,
+            "resourceType": 0
+          },
+          "loop": 0
+        }
+      ]
+    },
+    {
+      "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
+      "classname": "CCNode",
+      "name": "GameScene",
+      "canedit": true,
+      "objecttag": 10010,
+      "rotation": 0,
+      "scalex": 1,
+      "scaley": 1,
+      "visible": 1,
+      "x": 0,
+      "y": 0,
+      "zorder": 1,
+      "gameobjects": [
+        {
+          "__type": "ComGameObjectSurrogate:#EditorCommon.JsonModel",
+          "classname": "CCNode",
+          "name": "Background",
+          "canedit": true,
+          "objecttag": 10018,
+          "rotation": 0,
+          "scalex": 1.24609745,
+          "scaley": 1.036458,
+          "visible": 1,
+          "x": 640,
+          "y": 400,
+          "zorder": 1,
+          "gameobjects": [],
+          "components": [
+            {
+              "__type": "ComSpriteSurrogate:#EditorCommon.JsonModel.Component",
+              "classname": "CCSprite",
+              "name": "CCSprite",
+              "file": null,
+              "fileData": {
+                "path": "gfx/envir/Background.png",
+                "plistFile": null,
+                "resourceType": 0
+              }
+            }
+          ]
+        }
+      ],
+      "components": [
+        {
+          "__type": "ComGameMapSurrogate:#EditorCommon.JsonModel.Component",
+          "classname": "CCTMXTiledMap",
+          "name": "CCTMXTiledMap",
+          "file": null,
+          "fileData": {
+            "path": null,
+            "plistFile": null,
+            "resourceType": 0
+          }
+        }
+      ]
+    }
+  ],
+  "CanvasSize": {
+    "_height": 800,
+    "_width": 1280
+  },
+  "Triggers": null,
+  "Version": "1.2.0.0",
+  "components": [
+    {
+      "__type": "ComSceneSurrogate:#EditorCommon.JsonModel.Component",
+      "classname": "CCScene",
+      "name": "CCScene",
+      "scenename": "EWProto"
+    },
+    {
+      "__type": "ComSimpleAudioSurrogate:#EditorCommon.JsonModel.Component",
+      "classname": "CCBackgroundAudio",
+      "name": "CCBackgroundAudio",
+      "file": null,
+      "fileData": {
+        "path": null,
+        "plistFile": null,
+        "resourceType": 0
+      },
+      "loop": 0
+    }
+  ]
+}
