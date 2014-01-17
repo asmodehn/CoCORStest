@@ -1,3 +1,16 @@
+
+//scene
+var Scene_MainScene     = "Resources/EwProto.json";
+var Scene_BG     = "Resources/HelloWorld.png";
+
+//preload
+var Scene_resources =
+[
+    {src:Scene_BG},
+    //json
+    {src:Scene_MainScene}
+];
+
 //scene: main menu.
 var MainMenuScene = cc.Scene.extend({
     userService: null,
@@ -6,9 +19,21 @@ var MainMenuScene = cc.Scene.extend({
         this._super();
 
         //add cocostudio scene to game
-        var gameSceneNode = ccs.SceneReader.getInstance().createNodeWithSceneFile(Scene_GameScene);
-        this.addChild(gameSceneNode);
+        var gameSceneNode = ccs.SceneReader.getInstance().createNodeWithSceneFile(Scene_MainScene);
+                
+        //var tex = cc.TextureCache.getInstance().addImage("http://www.corsproxy.com/" + item.url.replace("http://",""));
+        //panel.getChildByName("ItemImage").loadTexture(tex);
+              
+        var layer1 = cc.LayerColor.create( new cc.Color4B(255, 0, 0, 255), 200, 200);
+        //var sprite = cc.Sprite.create("http://cdn.shephertz.com/repository/files/eb075343180ff254993d760eaeff219d9c6f3cd768c976f4cb7c25e6a6a7a88e/8e8984598d28645d304057d9a59cfd28e4648a60/ee227a6df135380c8bb1c4e9ad071c07e1fe284a.png");
+        //var sprite = cc.Sprite.create("http://www.corsproxy.com/cdn.shephertz.com/repository/files/eb075343180ff254993d760eaeff219d9c6f3cd768c976f4cb7c25e6a6a7a88e/8e8984598d28645d304057d9a59cfd28e4648a60/ee227a6df135380c8bb1c4e9ad071c07e1fe284a.png");
 
+        layer1.setPosition(new cc.Point(0.0,0.0));
+        //layer1.addChild(sprite);
+        //sprite.setPosition(new cc.Point(0.0,0.0));
+
+        gameSceneNode.addChild(layer1);
         
+        this.addChild(gameSceneNode);
     }
 });

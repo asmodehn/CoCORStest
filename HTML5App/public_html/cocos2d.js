@@ -38,7 +38,6 @@
         engineDir:'cocos2d-html/cocos2d/',
         //SingleEngineFile:'',
         appFiles:[
-            'GameScene.js',
             'MainMenuScene.js',
             //add your own files in order here
         ]

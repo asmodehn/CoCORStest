@@ -53,7 +53,7 @@ var cocos2dApp = cc.Application.extend({
         director.setAnimationInterval(1.0 / this.config['frameRate']);
 
         //preload resources and relpaceScene
-        cc.LoaderScene.preload(GameScene_resources, function ()
+        cc.LoaderScene.preload(Scene_resources, function ()
         {
             // set gameScene transition animation
             var gameSceneTransition = cc.TransitionFade.create(0.5, new this.startScene(), cc.white());
