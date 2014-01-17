@@ -28,9 +28,15 @@ var MainMenuScene = cc.Scene.extend({
         //var sprite = cc.Sprite.create("http://cdn.shephertz.com/repository/files/eb075343180ff254993d760eaeff219d9c6f3cd768c976f4cb7c25e6a6a7a88e/8e8984598d28645d304057d9a59cfd28e4648a60/ee227a6df135380c8bb1c4e9ad071c07e1fe284a.png");
         //var sprite = cc.Sprite.create("http://www.corsproxy.com/cdn.shephertz.com/repository/files/eb075343180ff254993d760eaeff219d9c6f3cd768c976f4cb7c25e6a6a7a88e/8e8984598d28645d304057d9a59cfd28e4648a60/ee227a6df135380c8bb1c4e9ad071c07e1fe284a.png");
 
-        layer1.setPosition(new cc.Point(0.0,0.0));
+        var spritelocal = cc.Sprite.create("Key_3.png");
+
+
+        layer1.setPosition(cc.p(0.0,0.0));
         //layer1.addChild(sprite);
         //sprite.setPosition(new cc.Point(0.0,0.0));
+
+        layer1.addChild(spritelocal);
+        spritelocal.setPosition(cc.p(0.5,0.5));
 
         gameSceneNode.addChild(layer1);
         
